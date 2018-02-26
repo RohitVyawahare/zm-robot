@@ -7,9 +7,9 @@ Suite Setup            Open Connection And Log In
 Suite Teardown         Close All Connections
 
 *** Variables ***
-${HOST}                zqa-149.eng.zimbra.com
-${USERNAME}            root
-${PASSWORD}            zimbra
+${HOST}                <HOST where ZCS is installed>
+${USERNAME}            <username>
+${PASSWORD}            <password>
 
 *** Test Cases ***
 Validate if the license if OK
