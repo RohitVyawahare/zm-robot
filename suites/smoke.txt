@@ -1,0 +1,2 @@
+tests/test_zcs_license.txt
+tests/test_zcs_status.txt
