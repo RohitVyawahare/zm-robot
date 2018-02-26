@@ -5,11 +5,9 @@ Documentation          Test ZCS license
 Library                SSHLibrary
 Suite Setup            Open Connection And Log In
 Suite Teardown         Close All Connections
+Variables              ../conf/variables.py
 
 *** Variables ***
-${HOST}                <HOST where ZCS is installed>
-${USERNAME}            <username>
-${PASSWORD}            <password>
 
 *** Test Cases ***
 Validate if the license if OK

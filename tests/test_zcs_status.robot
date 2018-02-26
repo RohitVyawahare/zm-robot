@@ -6,11 +6,7 @@ Documentation          Test ZCS status
 Library                SSHLibrary
 Suite Setup            Open Connection And Log In
 Suite Teardown         Close All Connections
-
-*** Variables ***
-${HOST}                <HOST where ZCS is installed>
-${USERNAME}            <username>
-${PASSWORD}            <password>
+Variables              ../conf/variables.py
 
 *** Test Cases ***
 Validate ZCS version
