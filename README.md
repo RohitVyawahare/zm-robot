@@ -1,5 +1,5 @@
 # zm-robot
-Robot POC for ZCS
+ZCS backend testing using Robot framework(POC only)
 
 # Pre-requisites
 - Install Python 2.7+
